@@ -14,6 +14,7 @@ public class CircleTest {
         Circle instance = new Circle();
         double expectedResult = 78.5;
         double result = instance.areaCircle(radius);
+        System.out.println("RESULT : " + result);
         assertEquals(expectedResult, result, 0.0);
     }
 }

@@ -22,7 +22,7 @@ public class HamcrestTest {
     public void testNetSalary2(){
         SalaryCalculator salaryCalculator = new SalaryCalculator();
         result = salaryCalculator.NetSalary(3250);
-//        assertEquals(result, 6900);
-        assertThat(result, equalTo(6900));
+        assertEquals(result, 6900);
+//        assertThat(result, equalTo(6900));
     }
 }

@@ -15,6 +15,7 @@ public class RectangleTest {
         Rectangle instance = new Rectangle();
         double expectedResult = 8;
         double result = instance.rectangleArea(length, breadth);
+        System.out.println("RESULT : " + result);
         assertEquals(expectedResult, result, 0.0);
     }
 }

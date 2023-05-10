@@ -24,12 +24,12 @@ public class PasswordChecker {
 //    }
 }
 
-class TestPass{
-    public static void main(String[] args) {
-        PasswordChecker passwordChecker = new PasswordChecker();
-        String printPass = passwordChecker
-                .combineString("Ferguson", "23%&$");
-
-        System.out.println(printPass);
-    }
-}
+//class TestPass{
+//    public static void main(String[] args) {
+//        PasswordChecker passwordChecker = new PasswordChecker();
+//        String printPass = passwordChecker
+//                .combineString("Ferguson", "23%&$");
+//
+//        System.out.println(printPass);
+//    }
+//}

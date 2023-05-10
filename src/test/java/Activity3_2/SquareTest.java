@@ -14,6 +14,7 @@ public class SquareTest {
         Square instance = new Square();
         double expectedResult = 16;
         double result = instance.squareArea(length);
+        System.out.println("RESULT : " + result);
         assertEquals(expectedResult, result, 0.0);
     }
 }
